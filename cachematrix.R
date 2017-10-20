@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## This function is setter and getter function controlling the access and saving of the cached Matric
 
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 
-## Write a short comment describing this function
+## This function controlles the calculation of the inverting of a matrix in cooperation with corresponding makeCacheMatrix
 
 cacheSolve <- function(x, ...) {
       solved <- x$getsolved()
